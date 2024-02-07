@@ -30,9 +30,7 @@
             allowfullscreen
             referrerpolicy="no-referrer-when-downgrade"
             src={`https://www.google.com/maps/embed/v1/place?key=${PUBLIC_GOOGLE_MAPS_API_KEY}&q=${query_string}`}>
-            <!-- Happy+Lemon+630+Blossom+Hill+Rd+#30,San+Jose,CA+95123 -->
         </iframe>
-        <!-- AIzaSyCi_sLwMxiEZSd2d8wTgbASZmw-qxladwQ -->
     </div>
     <div class="h-72 max-w-5xl m-2 px-2 bg-pale-yellow">
         <ImageGallery images={data.imageData} />
