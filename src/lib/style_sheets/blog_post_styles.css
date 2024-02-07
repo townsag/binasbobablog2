@@ -1,0 +1,21 @@
+p {
+    color: #00473e
+}
+
+h2 {
+    color: #00473e;
+    font-size: 3.75rem; /* 48px */
+    line-height: 1;
+    text-align: left;
+    padding-top: 1rem; /* 16px */
+    padding-bottom: 1rem; /* 16px */
+}
+
+h3 {
+    color: #00473e;
+    font-size: 2.25rem; /* 48px */
+    line-height: 1;
+    text-align: left;
+    padding-top: 0.75rem; /* 8px */
+    padding-bottom: 0.5rem; /* 8px */
+}

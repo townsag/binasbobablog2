@@ -1,0 +1,22 @@
+<script lang="ts">
+    export let data;
+    import RatingsDots from "$lib/components/Ratings_dots.svelte";
+</script>
+
+<section class="bg-pale-green flex flex-col p-8 items-center">
+    <h1 class="text-5xl text-royal-green px-2 mb-2 max-w-5xl w-full">Reviews:</h1>
+    <ul class="p-2 space-y-4 max-w-5xl w-full">
+        {#each data.posts as post}
+            <li class="flex flex-row justify-between space-x-2 items-center bg-pale-yellow rounded-md shadow-sm p-3">
+                <div class="flex flex-col space-y-1">
+                    <a href={post.path} class="text-3xl text-royal-green">{post.meta.shop_name}</a>
+                    <p class=" text-royal-green">Reviewed: {post.meta.date}</p>
+                </div>
+                <div class="">
+                    <RatingsDots scores={post.meta.scores} is_inline={true}/>
+                </div>
+                
+            </li>
+        {/each}
+    </ul>
+</section>

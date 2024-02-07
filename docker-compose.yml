@@ -1,0 +1,14 @@
+services:
+  binasbobablog:
+    container_name: blog
+    image: binasbobablog
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    user: node
+    environment:
+      - NODE_ENV=production
+      - TZ=America/Los_Angeles
+    restart: unless-stopped
+    ports:
+      - 3000:3000
