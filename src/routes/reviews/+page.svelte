@@ -7,12 +7,12 @@
     <h1 class="text-5xl text-royal-green px-2 mb-2 max-w-5xl w-full">Reviews:</h1>
     <ul class="p-2 space-y-4 max-w-5xl w-full">
         {#each data.posts as post}
-            <li class="flex flex-row justify-between space-x-2 items-center bg-pale-yellow rounded-md shadow-sm p-3">
+            <li class="flex flex-col sm:flex-row justify-between sm:space-x-2 sm:items-center bg-pale-yellow rounded-md shadow-sm p-3">
                 <div class="flex flex-col space-y-1">
                     <a href={post.path} class="text-3xl text-royal-green">{post.meta.shop_name}</a>
                     <p class=" text-royal-green">Reviewed: {post.meta.date}</p>
                 </div>
-                <div class="">
+                <div class="mt-2 sm:mt-0">
                     <RatingsDots scores={post.meta.scores} is_inline={true}/>
                 </div>
                 

@@ -11,11 +11,11 @@
     export let is_inline: boolean = false;
 </script>
 
-<aside class=" bg-slate-50 rounded-md shadow-md w-min h-min p-3">
+<aside class=" bg-slate-50 rounded-md shadow-md max-w-max h-min p-3">
     {#if !is_inline}
     <h3 class="text-xl">Scores</h3>
     {/if}
-    <div class="flex flex-row space-x-2 items-center">
+    <div class="flex flex-wrap space-x-2 items-center">
         {#if is_inline}
         <h3 class="text-xl">Scores</h3>
         {/if}
