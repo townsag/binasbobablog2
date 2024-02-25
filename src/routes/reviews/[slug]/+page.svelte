@@ -10,20 +10,22 @@
 <article class="bg-pale-green flex flex-col items-center">
     
     <div class="flex flex-col justify-start p-4">
-        <h1 class="text-8xl text-royal-green ">{data.shop_name}</h1>
+        <h1 class="text-5xl sm:text-8xl text-royal-green ">{data.shop_name}</h1>
 	    <p class="ml-4 mt-1">visited: {data.date}</p>
     </div>
 
-    <div class="flex flex-row space-x-4 m-2 justify-center max-w-5xl">
-        <div class="flex flex-col space-y-4 w-2/5">
-            <TagsCard tags={data.tags} />
-            <RatingsBars scores={data.scores} />
+    <div class="flex flex-col lg:flex-row lg:space-x-4 m-2 items-center max-w-5xl h-fit">
+        <div class="flex mb-2 flex-col
+                    sm:flex-row sm:space-x-2
+                    lg:flex-col lg:space-y-4 lg:space-x-0  lg:w-2/5 lg:mb-0">
+            <div class="max-w-80 lg:max-w-none"><TagsCard tags={data.tags} /></div>
+            <div class="mt-2 lg:mt-0"><RatingsBars scores={data.scores}/></div>
+            
             
         </div>
+        
         <iframe
-            class="rounded-md"
-            width="600"
-            height="450"
+            class="rounded-md lg:w-3/5 self-stretch mt-2 h-72 lg:h-auto"
             style="border:0"
             loading="lazy"
             title="map"

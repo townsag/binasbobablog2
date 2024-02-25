@@ -1,62 +1,46 @@
 <script lang="ts">
-    // export let value_score: number;
-    // export let variety_score: number;
-    // export let atmosphere_score: number;
-    // export let quality_score: number;
-    // export let wow_score: number;
-    export let scores: any;
+    interface BarInfo {
+        percentage: number,
+        bar_color: string,
+        text_color: string,
+    }
+    
+
+	export let scores: any;
+	let score_bars_info: BarInfo[] = [
+		{ percentage: (scores.value / 5) * 100, bar_color: 'bg-red-500', text_color: 'text-red-100' },
+        { percentage: (scores.variety / 5) * 100, bar_color: 'bg-yellow-400', text_color: 'text-yellow-100' },
+        { percentage: (scores.atmosphere / 5) * 100, bar_color: 'bg-green-400', text_color: 'text-green-100' },
+        { percentage: (scores.quality / 5) * 100, bar_color: 'bg-blue-500', text_color: 'text-blue-100' },
+        { percentage: (scores.wow / 5) * 100, bar_color: 'bg-orange-400', text_color: 'text-orange-100' }
+	];
 </script>
 
-<aside class=" bg-slate-50 rounded-md shadow-md  h-min p-3"> <!-- w-min -->
-    <h3 class="text-xl">Scores</h3>
-    <!-- <div class="border-t-2 border-gray-200 p-px"></div> -->
-    <div class="flex flex-col "> <!-- w-min -->
-        <div class="flex flex-row justify-between items-center space-x-2">
-            <label for="price score w-8">Value</label>
-            <div class="w-32 bg-gray-200 rounded-full">
-                <div class="bg-red-500 rounded-full text-xs font-medium 
-                text-red-100 text-center p-0.5 leading-none" 
-                style="width: {scores.value/5 * 100}%">{scores.value}</div>
-            </div>
-        </div>
-        <div class="flex flex-row justify-between items-center space-x-2">
-            <label for="variety score">Variety</label>
-            <div class="w-32 bg-gray-200 rounded-full">
-                <div class="bg-yellow-400 rounded-full text-xs font-medium 
-                text-yellow-100 text-center p-0.5 leading-none" 
-                style="width: {scores.variety/5 * 100}%">{scores.variety}</div>
-            </div>
-        </div>
-        <div class="flex flex-row justify-between items-center space-x-2">
-            <label for="atmosphere score">Atmosphere</label>
-            <div class="w-32 bg-gray-200 rounded-full">
-                <div class="bg-green-400 rounded-full text-xs font-medium 
-                text-green-100 text-center p-0.5 leading-none" 
-                style="width: {scores.atmosphere/5 * 100}%">{scores.atmosphere}</div>
-            </div>
-        </div>
-        <div class="flex flex-row justify-between items-center space-x-2">
-            <label for="quality score">Quality</label>
-            <div class="w-32 bg-gray-200 rounded-full">
-                <div class="bg-blue-500 rounded-full text-xs font-medium 
-                text-blue-100 text-center p-0.5 leading-none" 
-                style="width: {scores.quality/5 * 100}%">{scores.quality}</div>
-            </div>
-        </div>
-        <div class="flex flex-row justify-between items-center space-x-2">
-            <label for="wow score">Wow</label>
-            <div class="w-32 bg-gray-200 rounded-full">
-                <div class=" bg-orange-400 rounded-full text-xs font-medium 
-                text-orange-100 text-center p-0.5 leading-none" 
-                style="width: {scores.wow/5 * 100}%">{scores.wow}</div>
-            </div>
-        </div>
-
-    </div>
+<aside class=" bg-slate-50 rounded-md shadow-md h-min p-3">
+	<!-- w-min -->
+	<h3 class="text-xl">Scores</h3>
+	<!-- <div class="border-t-2 border-gray-200 p-px"></div> -->
+	<div class="flex flex-row space-x-2">
+		<div class="flex flex-col max-w-max">
+			{#each ['Value', 'Variety', 'Atmosphere', 'Quality', 'Wow'] as category_name}
+				<p class="h-6">{category_name}</p>
+			{/each}
+		</div>
+		<div class="flex flex-col w-full">
+			<!-- ToDo: I think this could be rewritten with a for loop and a list of object literals -->
+			{#each score_bars_info as bar_info}
+				<div class="h-6 flex items-center">
+					<div class="min-w-32 w-full bg-gray-200 rounded-full">
+						<div
+							class="{bar_info.bar_color} rounded-full text-xs font-medium
+                        {bar_info.text_color} text-center p-0.5 leading-none"
+							style="width: {bar_info.percentage}%"
+						>
+							{scores.value}
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
 </aside>
-
-<!-- <style lang="postcss">
-    label {
-        min-width: 100px;
-    }
-</style> -->
