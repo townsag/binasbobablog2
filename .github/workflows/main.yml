@@ -16,8 +16,8 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST_IP }}
-        username: ${{ secrets.SSH_USERNAME }}
-        key: ${{ secrets.DEPLOY_KEY_PUB }}
+        username: ${{ secrets.HOST_USER_NAME }}
+        key: ${{ secrets.DEPLOY_SSH_KEY_PRIVATE }}
         script: |
           cd ~/Desktop/webdev_projects/binasbobablog2/
           git pull origin main
