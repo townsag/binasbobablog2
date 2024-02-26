@@ -4,9 +4,9 @@
 </script>
 
 
-<section class="bg-pale-green flex flex-col p-8 max-w-5xl">
-    <h1 class="text-5xl text-royal-green px-2 mb-2  w-full">Reviews:</h1>
-    <ul class="p-2 space-y-4 w-full">
+<section class="bg-pale-green flex flex-col p-8 items-center">
+    <h1 class="text-5xl text-royal-green px-2 mb-2 self-start max-w-5xl">Reviews:</h1>
+    <ul class="p-2 space-y-4 max-w-5xl w-full">
         {#each data.posts as post}
             <li class="flex flex-col bg-pale-yellow rounded-md shadow-sm p-3 max-w-max
                         sm:flex-row sm:space-x-2 sm:items-center sm:max-w-none sm:justify-between">

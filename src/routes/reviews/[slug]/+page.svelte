@@ -14,7 +14,7 @@
 	    <p class="ml-4 mt-1">visited: {data.date}</p>
     </div>
 
-    <div class="flex flex-col lg:flex-row lg:space-x-4 m-2 items-center max-w-5xl h-fit">
+    <div class="flex flex-col lg:flex-row lg:space-x-4 m-2 items-center max-w-5xl h-fit w-full">
         <div class="flex mb-2 flex-col
                     sm:flex-row sm:space-x-2
                     lg:flex-col lg:space-y-4 lg:space-x-0  lg:w-2/5 lg:mb-0">
