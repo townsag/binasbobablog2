@@ -1,0 +1,34 @@
+- Things I struggled with:
+    - Building the website on the VM was challenging
+        - the build was failing inside the docker container but I wasnt getting very informative errors. I also couldnt look at the logs of the docker container because it was failing before it finished building or writing to the logs
+        - eventually I found that I could start the container from the node js base image and then use an psudo terminal inside the docker container to manually execute the instructions in the dockerfile
+        - I found that the build processz was being killed by an out of memory error so it never wrote any logs
+        - this was consistent with the fact that the VM I had signed up for only had 500mb of ram
+        - I upgraded to a gig of memory and it worked
+    - Vite cannot use dynamic imports to import an image file
+        - in the +page.svelte file for the individual blog page route I import the images to be displayed in the carosel. The import was working just fine on the dev server because it had access to the local repository
+            - I was using dynamic file paths in the import /src/lib/{img_name}.png
+        - the build was failing on the nodejs production server because the budle did not have access to the images in my local repository
+        - vite did not include them because their file path was not explicitly referenced by another file
+        - I was able to solve the issue of not being able to use dynamic file paths by making a component for each blog .md file that only had the responsibility of importing and then exporting the images
+        - this component could then be called by any component that wanted to display those images
+    - Secret keys as an argument to the iframe
+        - My google cloud Maps API key is used inside the component which displays the map of the boba shop location
+        - I accidentally pushed the api key to github
+            - not because I pushed the .env file but because I has pasted the api key into a comment elsewhere in my code
+- steps to deploy manualy on DO VM:
+    - ssh into vm
+        - ssh root@209.38.172.6
+    - change user to your username
+        - su townsag
+    - change directory to project directory
+        - cd /home/townsag/Desktop/webdev_projects/binasbobablog2
+    - glone github repository
+        - git fetch -a
+        - git pull origin main
+    - spin down the previous docker container
+        - docker compse down
+    - rebuild the docker image to include the recent changes
+        - docker compose build
+    - run the docker container
+        - docker compose up
