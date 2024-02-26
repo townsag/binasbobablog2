@@ -1,5 +1,6 @@
 <script lang="ts">
     interface BarInfo {
+        score: number,
         percentage: number,
         bar_color: string,
         text_color: string,
@@ -8,11 +9,11 @@
 
 	export let scores: any;
 	let score_bars_info: BarInfo[] = [
-		{ percentage: (scores.value / 5) * 100, bar_color: 'bg-red-500', text_color: 'text-red-100' },
-        { percentage: (scores.variety / 5) * 100, bar_color: 'bg-yellow-400', text_color: 'text-yellow-100' },
-        { percentage: (scores.atmosphere / 5) * 100, bar_color: 'bg-green-400', text_color: 'text-green-100' },
-        { percentage: (scores.quality / 5) * 100, bar_color: 'bg-blue-500', text_color: 'text-blue-100' },
-        { percentage: (scores.wow / 5) * 100, bar_color: 'bg-orange-400', text_color: 'text-orange-100' }
+		{ score: scores.value, percentage: (scores.value / 5) * 100, bar_color: 'bg-red-500', text_color: 'text-red-100' },
+        { score: scores.variety, percentage: (scores.variety / 5) * 100, bar_color: 'bg-yellow-400', text_color: 'text-yellow-100' },
+        { score: scores.atmosphere, percentage: (scores.atmosphere / 5) * 100, bar_color: 'bg-green-400', text_color: 'text-green-100' },
+        { score: scores.quality, percentage: (scores.quality / 5) * 100, bar_color: 'bg-blue-500', text_color: 'text-blue-100' },
+        { score: scores.wow, percentage: (scores.wow / 5) * 100, bar_color: 'bg-orange-400', text_color: 'text-orange-100' }
 	];
 </script>
 
@@ -36,7 +37,7 @@
                         {bar_info.text_color} text-center p-0.5 leading-none"
 							style="width: {bar_info.percentage}%"
 						>
-							{scores.value}
+							{bar_info.score}
 						</div>
 					</div>
 				</div>
