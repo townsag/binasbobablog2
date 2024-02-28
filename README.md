@@ -4,6 +4,7 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 Welcome to BinasBobaBlog! This is a markdown blog website created using SvelteKit, Typescript, TailwindCSS, MDsvex, and Vite. This blog can be found at (change soon) http://209.38.172.6:3000/ being served from a docker container running on a Digital Ocean virtual machine. Changes to the blog are continuously pushed to the Digital Ocean using Github Actions. 
 
