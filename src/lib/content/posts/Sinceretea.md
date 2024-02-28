@@ -22,22 +22,26 @@ address:
     import "$lib/style_sheets/blog_post_styles.css"
 </script>
 
-## Lorum Ipsum
+## Sinceretea: Enter the **FoAm ZoNe**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We found this boba tea shop on a windy January afternoon after getting tuna from the best poke shop in town: Santo Market. Sinceretea was a very welcome respite from the winter chill. We look forward to visiting Sinceretea again so we may fill out this blog post haha
 
 ### Value:
 
-Libero id faucibus nisl tincidunt eget nullam non nisi est. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Ligula ullamcorper malesuada proin libero. Massa ultricies mi quis hendrerit. Nec dui nunc mattis enim ut tellus elementum sagittis. Volutpat maecenas volutpat blandit aliquam. Diam volutpat commodo sed egestas. Ac odio tempor orci dapibus ultrices in. Pretium nibh ipsum consequat nisl vel pretium lectus. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus.
+Coming Soon :)
 
 ### Variety:
 
-Tellus at urna condimentum mattis pellentesque id nibh tortor. Ut lectus arcu bibendum at varius vel pharetra vel. Condimentum id venenatis a condimentum vitae. Aliquam sem fringilla ut morbi tincidunt. Nunc consequat interdum varius sit amet mattis vulputate. Eget felis eget nunc lobortis mattis aliquam. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Velit dignissim sodales ut eu. Arcu non odio euismod lacinia at quis. Arcu vitae elementum curabitur vitae nunc sed velit dignissim.
+This is the only boba shop I have seen so far with savory egg puff waffles! If you are looking for Bacon n' Cheese egg puffs to dip in your boba, your search is over :D . Aside from the novel egg puff flavors, Sinceretea also has many tea offerings. I appreciate that even though their menu is not as large as some stores, they still have a large variety of drinks and each drink looks good. This includes a couple good decaffinated options too.
 
 ### Atmosphere:
 
-Egestas integer eget aliquet nibh praesent tristique. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Et tortor consequat id porta nibh venenatis cras. Arcu dictum varius duis at consectetur. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Arcu cursus vitae congue mauris rhoncus aenean vel. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Non blandit massa enim nec dui. Sed viverra ipsum nunc aliquet bibendum. Viverra adipiscing at in tellus integer. In arcu cursus euismod quis viverra nibh cras. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. A pellentesque sit amet porttitor eget dolor morbi non arcu. Cras ornare arcu dui vivamus arcu felis. Lobortis feugiat vivamus at augue eget arcu dictum varius.
+This shop felt both comfortable and lively. The bright notes of Luke Chiang coming over the speakers combigned with the afternoon sunlight coming through window provided a good studying atmosphere. I can tell that the Japan Town locals frequent this place for afternoon drinks and snacks. My only lament is that the chairs were kinda hard on my lower back...
 
 ### Quality:
 
-Massa ultricies mi quis hendrerit dolor magna. Etiam erat velit scelerisque in dictum non consectetur a. Posuere ac ut consequat semper viverra nam. Sapien pellentesque habitant morbi tristique senectus et. Duis tristique sollicitudin nibh sit amet. Egestas purus viverra accumsan in. Et netus et malesuada fames ac turpis egestas. Nibh nisl condimentum id venenatis. Mauris a diam maecenas sed enim ut sem viverra aliquet. Phasellus faucibus scelerisque eleifend donec pretium. Posuere ac ut consequat semper viverra. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Lobortis mattis aliquam faucibus purus in massa tempor.
+Coming Soon :)
+
+### Wow:
+
+We already touched on this in the variety section but savory egg puff waffles really threw us for a loop.
