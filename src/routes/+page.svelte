@@ -15,7 +15,7 @@
         <p class="text-royal-green">Welcome to:</p>
         <h1 class="text-8xl text-royal-green">Bina's Boba Blog</h1>
     </div>
-    <div class="flex flex-row max-w-5xl space-x-2 items-center justify-center">
+    <div class="flex flex-col md:flex-row max-w-5xl md:space-x-2 items-center justify-center">
         <div class="flex flex-col space-y-2">
             <a href={data.posts[0].path} class="bg-pale-yellow rounded-md shadow-md p-3">
                 <p class="text-royal-green text-2xl">Most Recent Review:</p>
@@ -23,6 +23,6 @@
             </a>
             <a href="/reviews" class="bg-pale-yellow rounded-md shadow-md p-3 text-royal-green text-2xl">All Reviews</a>
         </div>
-        <img class="w-2/5" src={home_made_boba_buddies} alt="bubble tea budies" />
+        <img class="max-h-96 md:max-h-none md:w-2/5" src={home_made_boba_buddies} alt="bubble tea budies" />
     </div>
 </section>

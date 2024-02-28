@@ -21,22 +21,27 @@ address:
     import "$lib/style_sheets/blog_post_styles.css"
 </script>
 
-## Lorum Ipsum
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Phin Cafe: The Best Musubi in the Game
+
+Phin Cafe is a lovely little shop that has coffee, boba tea, and food offerings. The consistent quality and lively atmosphere make it one of my favorite places to go for a board game date or a few hours working from (not) home. 
 
 ### Value:
 
-Libero id faucibus nisl tincidunt eget nullam non nisi est. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Ligula ullamcorper malesuada proin libero. Massa ultricies mi quis hendrerit. Nec dui nunc mattis enim ut tellus elementum sagittis. Volutpat maecenas volutpat blandit aliquam. Diam volutpat commodo sed egestas. Ac odio tempor orci dapibus ultrices in. Pretium nibh ipsum consequat nisl vel pretium lectus. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus.
+Coming soon :)
 
 ### Variety:
 
-Tellus at urna condimentum mattis pellentesque id nibh tortor. Ut lectus arcu bibendum at varius vel pharetra vel. Condimentum id venenatis a condimentum vitae. Aliquam sem fringilla ut morbi tincidunt. Nunc consequat interdum varius sit amet mattis vulputate. Eget felis eget nunc lobortis mattis aliquam. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Velit dignissim sodales ut eu. Arcu non odio euismod lacinia at quis. Arcu vitae elementum curabitur vitae nunc sed velit dignissim.
+Unique selection of coffees with flavored cream/foam and a small but diverse selection of tea drinks. They recently stopped carrying egg pudding as a topping choice which is personally disappointing but they have a reasonable selection (boba, crystal boba, lychee jelly, aloe). Food wise, I’ve been eyeing the garlic fries but I haven’t tried much. I do enjoy the egg puff and my partner (Bina’s Boba Boi) has a hard time not ordering a spam misubi (check spelling) when we go. I’d love a decaf black tea option but no place is perfect :)
 
 ### Atmosphere:
 
-Egestas integer eget aliquet nibh praesent tristique. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Et tortor consequat id porta nibh venenatis cras. Arcu dictum varius duis at consectetur. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Arcu cursus vitae congue mauris rhoncus aenean vel. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Non blandit massa enim nec dui. Sed viverra ipsum nunc aliquet bibendum. Viverra adipiscing at in tellus integer. In arcu cursus euismod quis viverra nibh cras. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. A pellentesque sit amet porttitor eget dolor morbi non arcu. Cras ornare arcu dui vivamus arcu felis. Lobortis feugiat vivamus at augue eget arcu dictum varius.
+The shop is well decorated, it has a reasonable amount of seating. It is a feat to snag a table on a crowded Saturday but not impossible. I think it would be crowded if they added more- so I see why they haven’t. But they have a loyal enough customer base I’m optimistic another location might open at some point (or knocking down a wall to make a larger unit!). Staff have never been unfriendly but also aren’t overly chatty and holding up the line, it’s great!
 
 ### Quality:
 
-Massa ultricies mi quis hendrerit dolor magna. Etiam erat velit scelerisque in dictum non consectetur a. Posuere ac ut consequat semper viverra nam. Sapien pellentesque habitant morbi tristique senectus et. Duis tristique sollicitudin nibh sit amet. Egestas purus viverra accumsan in. Et netus et malesuada fames ac turpis egestas. Nibh nisl condimentum id venenatis. Mauris a diam maecenas sed enim ut sem viverra aliquet. Phasellus faucibus scelerisque eleifend donec pretium. Posuere ac ut consequat semper viverra. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. Lobortis mattis aliquam faucibus purus in massa tempor.
+The quality of all offerings has been consistently good. The boba strikes a balance of softness and chew- personally I like my boba a tiny bit softer but that’s really just preference. 
+
+### Wow:
+
+For me the wow factor of Phin Cafe is the combination- quality, decor, atmosphere, and variety. It’s well decorated but not overdone, I don’t have to worry about not knocking anything over or dust collecting on fake plants. They have enough snacks that if I’m hungry I don’t have to decide between boba and food, and the snacks are good enough quality I don’t feel I’m being overcharged purely for convenience.
